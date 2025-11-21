@@ -18,3 +18,18 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helv
 .paper .meta { font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; }
 .paper p { margin: 0.5rem 0 0; font-size: 0.95rem; color: #222; }
 .paper a.button { display:inline-block; margin-top:0.5rem; padding:0.35rem 0.6rem; border-radius:4px; background:#f3f3f3; text-decoration:none; color:inherit; font-size:0.9rem; }
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+:root[data-theme="dark"] {
+  --bg: #111111;
+  --text: #dddddd;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
