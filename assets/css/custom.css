@@ -33,3 +33,18 @@ body {
   background: var(--bg);
   color: var(--text);
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1; /* this pushes the footer to the bottom */
+}
+
