@@ -5,8 +5,6 @@ title: My Work
 
 # My Work
 
-This page is divided into three sections: Publications, Preprints, and Personal.
-
 ## Publications
 
 <div class="paper-grid">
