@@ -5,7 +5,7 @@ title: My Work
 
 # My Work
 
-Below are selected papers. To add a paper: upload the PDF to `assets/papers/` and add an entry to `_data/papers.yml` with the `pdf` path.
+Below are selected papers.
 
 <div class="paper-grid">
 {% for p in site.data.papers %}
