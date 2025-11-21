@@ -175,9 +175,17 @@ html[data-theme="dark"] .paper-grid .paper {
   color: inherit;
 }
 
-/* Muted text fallback */
-.meta, p, .paper .meta {
+/* Muted only for metadata (papers, small labels) */
+.meta,
+.paper .meta {
   color: var(--muted);
+}
+
+/* Normal paragraphs in main content should use the primary text color */
+.site-main p,
+.site-main li,
+.site-main blockquote {
+  color: var(--text);
 }
 
 /* Utility: make sure forms/buttons inherit color */
