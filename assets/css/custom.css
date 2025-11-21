@@ -1,50 +1,194 @@
-/* minimal custom styles */
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
-.inner { max-width: 900px; margin: 0 auto; padding: 1.25rem; }
-.site-header { border-bottom: 1px solid rgba(0,0,0,0.08); margin-bottom: 1rem; }
-.site-title { display: inline-block; margin: 0; font-size: 1.25rem; }
-.site-title a { text-decoration: none; color: inherit; }
-.site-nav { float: right; margin-top: 6px; }
-.site-nav a { margin-left: 1rem; text-decoration: none; color: inherit; font-weight: 500; }
-@media (max-width: 640px) {
-  .site-nav { float: none; margin-top: 0.75rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
-  .site-title { display: block; margin-bottom: 0.5rem; }
-}
-
-/* work grid */
-.paper-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 1rem; margin-top: 1rem; }
-.paper { border: 1px solid rgba(0,0,0,0.06); padding: 0.75rem; border-radius: 6px; background: #fff; }
-.paper h3 { margin: 0 0 0.5rem 0; font-size: 1rem; }
-.paper .meta { font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; }
-.paper p { margin: 0.5rem 0 0; font-size: 0.95rem; color: #222; }
-.paper a.button { display:inline-block; margin-top:0.5rem; padding:0.35rem 0.6rem; border-radius:4px; background:#f3f3f3; text-decoration:none; color:inherit; font-size:0.9rem; }
-
+/* Theme variables */
 :root {
   --bg: #ffffff;
-  --text: #000000;
+  --text: #111111;
+  --muted: #666666;
+  --card-bg: #ffffff;
+  --card-border: rgba(0,0,0,0.06);
+  --button-bg: #f3f3f3;
+  --header-border: rgba(0,0,0,0.08);
+  --link: #1a0dab;
 }
 
-:root[data-theme="dark"] {
-  --bg: #111111;
-  --text: #dddddd;
+html[data-theme="dark"] {
+  --bg: #0b0b0b;
+  --text: #e6e6e6;
+  --muted: #9b9b9b;
+  --card-bg: #0f0f12;
+  --card-border: rgba(255,255,255,0.06);
+  --button-bg: rgba(255,255,255,0.04);
+  --header-border: rgba(255,255,255,0.06);
+  --link: #7da7ff;
 }
 
-body {
-  background: var(--bg);
-  color: var(--text);
-}
-
+/* Page-level layout (makes footer stick to bottom) */
 html, body {
   height: 100%;
   margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Content container */
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  /* keep inner transparent so root background shows through */
+  background: transparent;
+  color: inherit;
+}
+
+/* Header / nav */
+.site-header {
+  border-bottom: 1px solid var(--header-border);
+  margin-bottom: 1rem;
+  background: transparent;
+}
+.site-title {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.25rem;
+}
+.site-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.site-nav {
+  float: right;
+  margin-top: 6px;
+}
+.site-nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+/* Responsive nav */
+@media (max-width: 640px) {
+  .site-nav {
+    float: none;
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .site-title {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Main area grows to push footer down */
 .site-main {
-  flex: 1; /* this pushes the footer to the bottom */
+  flex: 1;
 }
 
+/* Footer */
+.site-footer {
+  padding: 1rem 0;
+  text-align: center;
+  background: transparent;
+  color: inherit;
+  border-top: 0; /* keep subtle */
+}
+
+/* Links */
+a {
+  color: var(--link);
+}
+
+/* Work grid */
+.paper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Paper cards — use variables so they respond to theme */
+.paper {
+  background: var(--card-bg);
+  color: var(--text);
+  border: 1px solid var(--card-border);
+  padding: 0.75rem;
+  border-radius: 6px;
+  transition: background .15s ease, color .15s ease, border-color .15s ease, box-shadow .15s ease;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+
+/* Slight lift on hover (subtle) */
+.paper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Text inside paper */
+.paper h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+.paper .meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+.paper p {
+  margin: 0.5rem 0 0;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+/* Button/link inside paper */
+.paper a.button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  background: var(--button-bg);
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+  border: 1px solid transparent;
+}
+
+/* Ensure theme-specific overrides are applied with equal specificity */
+html[data-theme="dark"] .paper,
+html[data-theme="dark"] .paper-grid .paper {
+  background: var(--card-bg);
+  color: var(--text);
+  border-color: var(--card-border);
+}
+
+/* Helpful overrides for theme rules that target other selectors */
+.site-header, .site-main, .site-footer, .inner, .paper-grid {
+  background: transparent;
+  color: inherit;
+}
+
+/* Muted text fallback */
+.meta, p, .paper .meta {
+  color: var(--muted);
+}
+
+/* Utility: make sure forms/buttons inherit color */
+button, input, textarea {
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--card-border);
+}
+
+/* Small-screen adjustments */
+@media (max-width: 420px) {
+  .inner { padding: 0.75rem; }
+  .site-title { font-size: 1.1rem; }
+}
