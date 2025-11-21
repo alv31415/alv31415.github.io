@@ -1,0 +1,12 @@
+# personal documents: slides, technical notes, miscellaneous
+- title: "Conference Slides — Talk Title"
+  authors: "A. León Villares"
+  year: 2024
+  pdf: "/assets/papers/slides_talk.pdf"
+  description: "Slides from conference ABC."
+
+- title: "Notes on Experiment Z"
+  authors: "A. León Villares"
+  year: 2022
+  pdf: "/assets/papers/notes_experiment_z.pdf"
+  description: "Internal notes and replication instructions."
