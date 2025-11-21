@@ -1,12 +1,8 @@
 # preprints, working drafts
-- title: "Working Draft on Topic X"
-  authors: "A. León Villares"
+- title: "Evolution Strategies at the Hyperscale"
+  authors: "Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Dylan Cope, Jarek Liesen, Lukas Seier, Theo Wolf, Uljad Berdica, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster"
   year: 2025
-  pdf: "/assets/papers/preprint1.pdf"
-  description: "Preprint draft; not peer-reviewed."
-
-- title: "Preprint Example"
-  authors: "A. León Villares, Collaborator"
-  year: 2023
-  pdf: "/assets/papers/preprint2.pdf"
-  description: "ArXiv preprint describing method Y."
+  description: "Preprint for 'Evolution Strategies at the Hyperscale'"
+  arxiv: "https://arxiv.org/pdf/2511.16652"
+  website: "https://eshyperscale.github.io"
+  code: "https://github.com/ESHyperscale/HyperscaleES"

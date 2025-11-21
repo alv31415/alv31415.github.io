@@ -2,13 +2,13 @@
 - title: "Deep Contrastive Learning for Feature Representation in Historical Maps"
   authors: "Antonio León Villares"
   year: 2023
-  pdf: "/assets/personal/ed_ug_thesis.pdf"
   description: "Undergraduate thesis @ University of Edinburgh, supervised by Amos Storkey."
+  pdf: "/assets/personal/ed_ug_thesis.pdf"
 
 - title: "The N-Body Problem and the Stability of the Figure of 8"
   authors: "Antonio León Villares"
   year: 2022
-  pdf: "/assets/personal/n-body-report.pdf"
   description: "Report for the Vacation Scholarship @ University of Edinburgh, supervised by Maximillian Ruffert"
+  pdf: "/assets/personal/n-body-report.pdf"
   website: "https://nbody-89ffd.web.app"
   code: "https://github.com/alv31415/n-body-problem/tree/website"
