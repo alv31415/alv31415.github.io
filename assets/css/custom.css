@@ -110,7 +110,7 @@ a {
 /* Work grid */
 .paper-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: 1fr;  /* exactly one column */
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -209,4 +209,17 @@ button, input, textarea {
 
 .wrapper > section {
     flex: 1;
+}
+
+/* Ensure main content uses primary text color (no more muted body text) */
+.site-main,
+.site-main .inner,
+.site-main p,
+.site-main li,
+.site-main h1,
+.site-main h2,
+.site-main h3,
+.site-main blockquote,
+.site-main a {
+  color: var(--text);
 }
