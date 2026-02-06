@@ -223,3 +223,8 @@ button, input, textarea {
 .site-main a {
   color: var(--text);
 }
+
+.me {
+  text-decoration: underline;
+}
+
