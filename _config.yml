@@ -5,3 +5,6 @@ url: "https://alv31415.github.io"
 baseurl: ""
 paginate: 6
 markdown: kramdown
+kramdown:
+  parse_block_html: true
+  parse_span_html: true
