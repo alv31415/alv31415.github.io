@@ -3,11 +3,13 @@
   authors: "José A. Carrillo, Yurij Salmaniw, Antonio León Villares"
   year: 2026
   description: "Preprint for 'Numerical stationary states for nonlocal Fokker–Planck equations via fixed points of consistency maps'"
-  arxiv: "https://www.arxiv.org/pdf/2602.05632"
+  arxiv: "https://www.arxiv.org/abs/2602.05632"
+  pdf: "https://www.arxiv.org/pdf/2602.05632"
 - title: "Evolution Strategies at the Hyperscale"
   authors: "Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Dylan Cope, Jarek Liesen, Lukas Seier, Theo Wolf, Uljad Berdica, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster"
   year: 2025
   description: "Preprint for 'Evolution Strategies at the Hyperscale'"
-  arxiv: "https://arxiv.org/pdf/2511.16652"
+  arxiv: "https://arxiv.org/abs/2511.16652"
+  pdf: "https://arxiv.org/pdf/2511.16652"
   website: "https://eshyperscale.github.io"
   code: "https://github.com/ESHyperscale/HyperscaleES"
