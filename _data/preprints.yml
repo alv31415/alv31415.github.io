@@ -1,10 +1,17 @@
 # preprints, working drafts
+- title: "Learning functional components of PDEs from data using neural networks"
+  authors: "Torkel E. Loman, Yurij Salmaniw, Antonio León Villares, José A. Carrillo, Ruth E. Baker"
+  year: 2026
+  description: "Preprint for 'Learning functional components of PDEs from data using neural networks'"
+  arxiv: "https://arxiv.org/abs/2602.13174"
+  pdf: "https://arxiv.org/pdf/2602.13174"
 - title: "Numerical stationary states for nonlocal Fokker–Planck equations via fixed points of consistency maps"
   authors: "José A. Carrillo, Yurij Salmaniw, Antonio León Villares"
   year: 2026
   description: "Preprint for 'Numerical stationary states for nonlocal Fokker–Planck equations via fixed points of consistency maps'"
   arxiv: "https://www.arxiv.org/abs/2602.05632"
   pdf: "https://www.arxiv.org/pdf/2602.05632"
+  code: "https://github.com/alv31415/MVESteadyStateSolver.jl"
 - title: "Evolution Strategies at the Hyperscale"
   authors: "Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Dylan Cope, Jarek Liesen, Lukas Seier, Theo Wolf, Uljad Berdica, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster"
   year: 2025
