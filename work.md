@@ -11,7 +11,7 @@ title: My Work
 {% for p in site.data.publications %}
   <article class="paper" data-year="{{ p.year }}" data-type="publication">
     <h3>{{ p.title }}</h3>
-    <div class="meta">{{ p.authors }} — {{ p.year }}</div>
+    <div class="meta">{{ p.authors | replace: "Antonio León Villares", "<strong><u>Antonio León Villares</u></strong>" }} — {{ p.year }}</div>
     <p>{{ p.description }}</p>
     {% if p.pdf %}
       <a class="button" href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>
@@ -43,7 +43,7 @@ title: My Work
 {% for p in site.data.preprints %}
   <article class="paper" data-year="{{ p.year }}" data-type="preprint">
     <h3>{{ p.title }}</h3>
-    <div class="meta">{{ p.authors }} — {{ p.year }}</div>
+    <div class="meta">{{ p.authors | replace: "Antonio León Villares", "<strong><u>Antonio León Villares</u></strong>" }} — {{ p.year }}</div>
     <p>{{ p.description }}</p>
     {% if p.pdf %}
       <a class="button" href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>
@@ -75,7 +75,7 @@ title: My Work
 {% for p in site.data.personal %}
   <article class="paper" data-year="{{ p.year }}" data-type="personal">
     <h3>{{ p.title }}</h3>
-    <div class="meta">{{ p.authors }} — {{ p.year }}</div>
+    <div class="meta">{{ p.authors | replace: "Antonio León Villares", "<strong><u>Antonio León Villares</u></strong>" }} — {{ p.year }}</div>
     <p>{{ p.description }}</p>
     {% if p.pdf %}
       <a class="button" href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>
@@ -99,4 +99,3 @@ title: My Work
   </article>
 {% endfor %}
 </div>
-
