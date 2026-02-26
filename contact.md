@@ -1,12 +1,7 @@
 ---
 layout: default
-title: CV / Contact
+title: Contact
 ---
-
-# CV
-
-My CV is available as a PDF:  
-[Download CV]({{ "/assets/papers/cv.pdf" | relative_url }}) (place `cv.pdf` in `assets/papers/`).
 
 # Contact
 
