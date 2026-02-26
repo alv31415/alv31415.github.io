@@ -13,7 +13,7 @@
   pdf: "https://www.arxiv.org/pdf/2602.05632"
   code: "https://github.com/alv31415/MVESteadyStateSolver.jl"
 - title: "Evolution Strategies at the Hyperscale"
-  authors: "Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Dylan Cope, Jarek Liesen, Lukas Seier, Theo Wolf, Uljad Berdica, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster"
+  authors: "Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Clarisse Wibault, Dmitry Samsonov, Dylan Cope, Jarek Liesen, Kang Li, Lukas Seier, Theo Wolf, Uljad Berdica, Valentin Mohl, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster"
   year: 2025
   description: "Preprint for 'Evolution Strategies at the Hyperscale'"
   arxiv: "https://arxiv.org/abs/2511.16652"
