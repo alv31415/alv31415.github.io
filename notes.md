@@ -1,7 +1,6 @@
 ---
 layout: default
 title: My Notes
-
 ---
 
 These are my notes for some of my courses at the University of Edinburgh & the University of Oxford.
