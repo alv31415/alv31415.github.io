@@ -1,7 +1,10 @@
 ---
 layout: default
 title: My Notes
+permalink: /notes.html
 ---
+
+<h1>My Notes</h1>
 
 These are my notes for some of my courses at the University of Edinburgh & the University of Oxford.
 
