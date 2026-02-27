@@ -18,7 +18,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/IADS">Introduction to Algorithms and Data Structures 🌳</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/IADS">Introduction to Algorithms and Data Structures 🌳</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/IADS/IADS-Sem1.pdf">Asymptotics, Sorting, Core Data Structures and Graphs</a></li>
   <li><a href="https://alv31415.github.io/course-notes/IADS/IADS-Sem2.pdf">Dynamic Programming, Parsing and NP-Completeness</a></li>
@@ -28,7 +28,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 <h3>Year 3</h3>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/Algebra">Honours Algebra 💍</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/Algebra">Honours Algebra 💍</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/Algebra/W1-VecSpa.pdf">Chapter 1: Fields and Vector Spaces</a></li>
   <li><a href="https://alv31415.github.io/course-notes/Algebra/W2-MorphismsMatrices.pdf">Chapter 2: The "Morphisms" and Representing Matrices</a></li>
@@ -44,7 +44,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/Analysis">Honours Analysis ♾️</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/Analysis">Honours Analysis ♾️</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/Analysis/W1-RealNumbers.pdf">Chapter 1: Real Numbers and Sequences</a></li>
   <li><a href="https://alv31415.github.io/course-notes/Analysis/W2-BWnSeries.pdf">Chapter 2: Bolzano-Weierstrass Theorem, Cauchy Sequences and Series</a></li>
@@ -61,7 +61,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/HDEQ">Honours Differential Equations 🌀</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/HDEQ">Honours Differential Equations 🌀</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/HDEQ/W1-SolvingSystems.pdf">Chapter 1: Solving Linear Systems</a></li>
   <li><a href="https://alv31415.github.io/course-notes/HDEQ/W2-FundamentalMatrices.pdf">Chapter 2: Fundamental Matrices</a></li>
@@ -76,7 +76,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/FNLP">Foundations of Natural Language Processing 💬</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/FNLP">Foundations of Natural Language Processing 💬</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/FNLP/W1-AmbiguityCorpora.pdf">Chapter 1: Intro to NLP, Ambiguity and Working with Corpora</a></li>
   <li><a href="https://alv31415.github.io/course-notes/FNLP/W2-NGramSmooth.pdf">Chapter 2: N-Gram Models and Smoothing Techniques</a></li>
@@ -90,7 +90,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/IAML">Introductory Applied Machine Learning 🖥️</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/IAML">Introductory Applied Machine Learning 🖥️</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/IAML/W1-2-MathNB.pdf">Chapter 1: Basic Math and Naive Bayes</a></li>
   <li><a href="https://alv31415.github.io/course-notes/IAML/W3-DecisionTrees.pdf">Chapter 2: Decision Trees</a></li>
@@ -106,14 +106,14 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 <h3>Year 4</h3>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/Galois">Galois Theory 🔮</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/Galois">Galois Theory 📐</a></summary>
 <ul>
-  <li><a href="https://alv31415.github.io/course-notes/Galois/W1-FieldExtensions.pdf">Chapter 1: Field Extensions</a></li>
-  <li><a href="https://alv31415.github.io/course-notes/Galois/W2-SplittingFields.pdf">Chapter 2: Splitting Fields</a></li>
-  <li><a href="https://alv31415.github.io/course-notes/Galois/W3-AlgebraicClosure.pdf">Chapter 3: Algebraic Closures</a></li>
-  <li><a href="https://alv31415.github.io/course-notes/Galois/W4-GaloisGroup.pdf">Chapter 4: The Galois Group</a></li>
-  <li><a href="https://alv31415.github.io/course-notes/Galois/W5-GaloisExtensions.pdf">Chapter 5: Galois Extensions</a></li>
-  <li><a href="https://alv31415.github.io/course-notes/Galois/W6-GaloisCorrespondence.pdf">Chapter 6: The Galois Correspondence</a></li>
+  <li><a href="https://alv31415.github.io/course-notes/Galois/W1-Conjugacy.pdf">Chapter 1: Introduction to Conjugacy</a></li>
+  <li><a href="https://alv31415.github.io/course-notes/Galois/W2-ActionsRingsFields.pdf">Chapter 2: Group Actions, Rings and Fields</a></li>
+  <li><a href="https://alv31415.github.io/course-notes/Galois/W3-Polynomials.pdf">Chapter 3: Polynomials</a></li>
+  <li><a href="https://alv31415.github.io/course-notes/Galois/W4-FieldExtensions.pdf">Chapter 4: Field Extensions and Homomorphisms Over Fields</a></li>
+  <li><a href="https://alv31415.github.io/course-notes/Galois/W5-Degree.pdf">Chapter 5: Degree of Extensions, Finite Extensions and Ruler + Compass Constructions</a></li>
+  <li><a href="https://alv31415.github.io/course-notes/Galois/W6-SplittingFields.pdf">Chapter 6: Splitting Fields and the Galois Group</a></li>
   <li><a href="https://alv31415.github.io/course-notes/Galois/W7-NormalitySeparabilityFix.pdf">Chapter 7: Normal and Separable Extensions</a></li>
   <li><a href="https://alv31415.github.io/course-notes/Galois/W8-FTGT.pdf">Chapter 8: The Fundamental Theorem of Galois Theory</a></li>
   <li><a href="https://alv31415.github.io/course-notes/Galois/W9-Solvability.pdf">Chapter 9: Solvability by Radicals</a></li>
@@ -124,7 +124,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/Groups">Group Theory 🌗</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/Groups">Group Theory 🌗</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/Groups/W1-GroupsIntro.pdf">Chapter 1: Introduction to Groups</a></li>
   <li><a href="https://alv31415.github.io/course-notes/Groups/W2-IsomorphismTheorems.pdf">Chapter 2: The Isomorphism Theorems</a></li>
@@ -139,7 +139,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/IPDEs">Introduction to Partial Differential Equations 🌊</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/IPDEs">Introduction to Partial Differential Equations 🌊</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/IPDEs/W1-IntroPDEs.pdf">Chapter 1: Partial Differential Equations and the Transport Equation</a></li>
   <li><a href="https://alv31415.github.io/course-notes/IPDEs/W2n3-HeatEq.pdf">Chapter 2: The Heat Equation: Solution via Fourier Series</a></li>
@@ -151,7 +151,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/VARCALC">Variational Calculus 🪐</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/VARCALC">Variational Calculus 🪐</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/VARCALC/W0-Prequel.pdf">Chapter 0: Prequel: Several Variable Calculus and Analysis</a></li>
   <li><a href="https://alv31415.github.io/course-notes/VARCALC/W1-Geodesic.pdf">Chapter 1: Geodesics: Extremals of the Arclength Functional</a></li>
@@ -168,7 +168,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/MLPR">Machine Learning and Pattern Recognition 🤖</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/MLPR">Machine Learning and Pattern Recognition 🤖</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/MLPR/W1-LinearRegression.pdf">Chapter 1: Linear Regression and Regularisation</a></li>
   <li><a href="https://alv31415.github.io/course-notes/MLPR/W2-EvaluationGaussian.pdf">Chapter 2: Evaluating Models and Multivariate Gaussians</a></li>
@@ -184,7 +184,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/NLU+">Natural Language Understanding, Generation and Machine Translation 🗯️</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/NLU+">Natural Language Understanding, Generation and Machine Translation 🗯️</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/NLU+/W1-NGLMMT.pdf">Chapter 1: N-Grams for Language Modelling and Translation Linear</a></li>
   <li><a href="https://alv31415.github.io/course-notes/NLU+/W2-NNLMs.pdf">Chapter 2: Neural Language Models</a></li>
@@ -201,7 +201,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 <h2>University of Oxford</h2>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/REPTHEORY">Introduction to Representation Theory 🧩</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/REPTHEORY">Introduction to Representation Theory 🧩</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/REPTHEORY/W1-Intro.pdf">Chapter 1: Representations of Finite Groups</a></li>
   <li><a href="https://alv31415.github.io/course-notes/REPTHEORY/W2-Modules.pdf">Chapter 2: Representations and Modules</a></li>
@@ -214,7 +214,7 @@ Clicking on the arrow (▸) next to the course name will provide links to access
 </details>
 
 <details>
-<summary><a href="https://github.com/alv31415/notes/tree/master/Networks">Networks 🕸️</a></summary>
+<summary><a href="https://github.com/alv31415/course-notes/tree/master/Networks">Networks 🕸️</a></summary>
 <ul>
   <li><a href="https://alv31415.github.io/course-notes/Networks/W1-Prelim.pdf">Chapter 1: Randomness and Matrices</a></li>
   <li><a href="https://alv31415.github.io/course-notes/Networks/W2-NetworkProperties.pdf">Chapter 2: Exploring Properties of Networks</a></li>
