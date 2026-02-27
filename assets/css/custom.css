@@ -224,3 +224,22 @@ button, input, textarea {
   color: var(--text);
 }
 
+/* Remove underlining from links within the main content area */
+.site-main a {
+    text-decoration: none;
+}
+
+/* Add a bold effect when hovering over links */
+.site-main a:hover {
+    text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
+}
+
+/* Ensure the summary titles in your notes also follow this rule */
+summary a {
+    text-decoration: none;
+}
+
+summary a:hover {
+    font-weight: bold;
+}
+
