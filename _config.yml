@@ -5,3 +5,4 @@ url: "https://alv31415.github.io"
 baseurl: ""
 paginate: 6
 markdown: kramdown
+permalink: pretty
