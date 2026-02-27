@@ -233,14 +233,7 @@ button, input, textarea {
 
 /* The Bold Hover Effect */
 .site-main a:hover {
-    text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor !important;
-}
-
-/* Ensure the summary links in notes.md are covered */
-summary a, 
-.site-main ul li a {
-    text-decoration: none !important;
-    border-bottom: none !important;
+    text-shadow: 0.3px 0 0 currentColor, -0.3px 0 0 currentColor !important;
 }
 
 /* Ensure the summary titles in your notes also follow this rule */
@@ -250,5 +243,12 @@ summary a {
 
 summary a:hover {
     font-weight: bold;
+}
+
+/* Ensure the summary links in notes.md are covered */
+summary a, 
+.site-main ul li a {
+    text-decoration: none !important;
+    border-bottom: none !important;
 }
 
