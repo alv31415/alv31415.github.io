@@ -224,14 +224,23 @@ button, input, textarea {
   color: var(--text);
 }
 
-/* Remove underlining from links within the main content area */
+/* Target links specifically inside your main content area */
 .site-main a {
-    text-decoration: none;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: all 0.2s ease-in-out;
 }
 
-/* Add a bold effect when hovering over links */
+/* The Bold Hover Effect */
 .site-main a:hover {
-    text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
+    text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor !important;
+}
+
+/* Ensure the summary links in notes.md are covered */
+summary a, 
+.site-main ul li a {
+    text-decoration: none !important;
+    border-bottom: none !important;
 }
 
 /* Ensure the summary titles in your notes also follow this rule */
