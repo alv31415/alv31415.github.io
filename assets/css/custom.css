@@ -225,30 +225,16 @@ button, input, textarea {
 }
 
 /* Target links specifically inside your main content area */
-.site-main a {
+.site-main a,
+summary a {
     text-decoration: none !important;
     border-bottom: none !important;
     transition: all 0.2s ease-in-out;
 }
 
 /* The Bold Hover Effect */
-.site-main a:hover {
-    text-shadow: 0.3px 0 0 currentColor, -0.3px 0 0 currentColor !important;
-}
-
-/* Ensure the summary titles in your notes also follow this rule */
-summary a {
-    text-decoration: none;
-}
-
+.site-main a:hover,
 summary a:hover {
-    font-weight: bold;
-}
-
-/* Ensure the summary links in notes.md are covered */
-summary a, 
-.site-main ul li a {
-    text-decoration: none !important;
-    border-bottom: none !important;
+    text-shadow: 0.3px 0 0 currentColor, -0.3px 0 0 currentColor !important;
 }
 
