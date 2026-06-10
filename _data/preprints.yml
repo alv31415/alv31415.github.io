@@ -1,4 +1,10 @@
 # preprints, working drafts
+- title: "Abstraction for Offline Goal-Conditioned Reinforcement Learning"
+  authors: "Clarisse Wibault, Alexander Goldie, Antonio León Villares, Maike Osborne, Jakob Foerster"
+  year: 2026
+  description: "Preprint for 'Abstraction for Offline Goal-Conditioned Reinforcement Learning'"
+  arxiv: "https://arxiv.org/abs/2605.22711"
+  pdf: "https://arxiv.org/pdf/2605.22711"
 - title: "Learning functional components of PDEs from data using neural networks"
   authors: "Torkel E. Loman, Yurij Salmaniw, Antonio León Villares, José A. Carrillo, Ruth E. Baker"
   year: 2026
