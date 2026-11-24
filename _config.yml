@@ -1,6 +1,22 @@
 theme: jekyll-theme-slate
 title: Antonio León Villares
 author: "Antonio León Villares"
+description: "PhD student at the University of Oxford (BOLD & TVG) researching how LLMs represent uncertainty and belief, and the intersection of mathematics and AI."
+lang: en
+logo: /assets/logo.png
+defaults:   # default image for link previews on every page (swap for a headshot later)
+  - scope:
+      path: ""
+    values:
+      image: /assets/logo.png
+plugins:
+  - jekyll-seo-tag
+social:   # tells search engines these profiles are you
+  name: "Antonio León Villares"
+  links:
+    - https://scholar.google.com/citations?user=5_s1NdQAAAAJ
+    - https://github.com/alv31415
+    - https://www.linkedin.com/in/antonio-leon-villares/
 url: "https://alv31415.github.io"
 baseurl: ""
 paginate: 6
