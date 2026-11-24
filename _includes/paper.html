@@ -1,0 +1,22 @@
+{% comment %}
+  One paper card. Usage: {% include paper.html p=paper type="publication" %}
+  Fields (all optional except title/authors/year): description, pdf, website, arxiv, conference, code, bibtex
+{% endcomment %}
+{% assign p = include.p %}
+<article class="paper" data-year="{{ p.year }}" data-type="{{ include.type }}">
+  <h3>{{ p.title }}</h3>
+  <div class="meta">{{ p.authors | replace: "Antonio León Villares", "<strong><u>Antonio León Villares</u></strong>" }} — {{ p.year }}</div>
+  <p>{{ p.description }}</p>
+  {% if p.pdf %}<a class="button" href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+  {% if p.website %}<a class="button" href="{{ p.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+  {% if p.arxiv %}<a class="button" href="{{ p.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+  {% if p.conference %}<a class="button" href="{{ p.conference }}" target="_blank" rel="noopener">Conference</a>{% endif %}
+  {% if p.code %}<a class="button" href="{{ p.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+  {% if p.bibtex %}
+  <button class="button bibtex-toggle" type="button" aria-expanded="false">BibTeX</button>
+  <div class="bibtex" hidden>
+    <button class="bibtex-copy" type="button">Copy</button>
+    <pre><code>{{ p.bibtex | strip | escape }}</code></pre>
+  </div>
+  {% endif %}
+</article>

@@ -149,7 +149,8 @@ a {
 }
 
 /* Button/link inside paper */
-.paper a.button {
+.paper a.button,
+.paper button.button {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.35rem 0.6rem;
@@ -277,4 +278,40 @@ summary a:hover {
   .brand .site-title {
     margin-bottom: 0;
   }
+}
+
+/* BibTeX toggle + box on paper cards */
+.paper button.button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.paper .bibtex {
+  position: relative;
+  margin-top: 0.6rem;
+}
+
+.paper .bibtex pre {
+  margin: 0;
+  padding: 0.75rem;
+  padding-top: 2rem;
+  overflow-x: auto;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  background: var(--button-bg);
+  color: var(--text);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  white-space: pre;
+}
+
+.paper .bibtex-copy {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background: var(--card-bg);
 }

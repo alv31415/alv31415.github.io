@@ -8,3 +8,18 @@
   arxiv: "https://arxiv.org/abs/2511.16652"
   conference: "https://proceedings.mlr.press/v306/sarkar26a.html"
   code: "https://github.com/ESHyperscale/HyperscaleES"
+  bibtex: |
+    @InProceedings{pmlr-v306-sarkar26a,
+      title = {Evolution Strategies at the Hyperscale},
+      author = {Sarkar, Bidipta and Fellows, Mattie and Duque, Juan Agustin and Letcher, Alistair and Le{\'o}n Villares, Antonio and Sims, Anya and Wibault, Clarisse and Samsonov, Dmitry and Cope, Dylan and Liesen, Jarek Luca and Li, Kang and Seier, Lukas and Wolf, Theo and Berdica, Uljad and Mohl, Valentin and Goldie, Alexander David and Courville, Aaron and Sevegnani, Karin and Whiteson, Shimon and Foerster, Jakob Nicolaus},
+      booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+      pages = {107670--107741},
+      year = {2026},
+      editor = {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},
+      volume = {306},
+      series = {Proceedings of Machine Learning Research},
+      month = {06--11 Jul},
+      publisher = {PMLR},
+      pdf = {https://raw.githubusercontent.com/mlresearch/v306/main/assets/sarkar26a/sarkar26a.pdf},
+      url = {https://proceedings.mlr.press/v306/sarkar26a.html},
+    }

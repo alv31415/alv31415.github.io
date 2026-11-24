@@ -17,6 +17,10 @@ social:   # tells search engines these profiles are you
     - https://scholar.google.com/citations?user=5_s1NdQAAAAJ
     - https://github.com/alv31415
     - https://www.linkedin.com/in/antonio-leon-villares/
+    - https://x.com/alv314159
+# CV: leave empty to show the "coming soon" page at /cv.
+# When you have one, drop the PDF in assets/ and set e.g.  cv: /assets/cv.pdf
+cv: ""
 url: "https://alv31415.github.io"
 baseurl: ""
 paginate: 6
