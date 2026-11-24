@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/png" href="{{ '/assets/logo.png' | relative_url }}">
     <!-- Jekyll theme will provide its own CSS; our custom CSS overrides small bits -->
     {{ head }}
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   </head>
   <body>
     <header class="site-header">
