@@ -1,4 +1,10 @@
 # preprints, working drafts
+- title: "Q-Shaped Options for Hierarchical Reinforcement Learning"
+  authors: "Clarisse Wibault, Antoine Gorceix, Antonio León Villares, Alexey Zakharov, Evangelos Chatzaroulas, Michael Matthews, Eduardo Pignatelli, Jakob Foerster"
+  year: 2026
+  description: "Preprint for 'Q-Shaped Options for Hierarchical Reinforcement Learning'"
+  arxiv: "https://arxiv.org/abs/2610.12135"
+  pdf: "https://arxiv.org/pdf/2610.12135"
 - title: "Abstraction for Offline Goal-Conditioned Reinforcement Learning"
   authors: "Clarisse Wibault, Alexander Goldie, Antonio León Villares, Maike Osborne, Jakob Foerster"
   year: 2026
@@ -18,11 +24,3 @@
   arxiv: "https://www.arxiv.org/abs/2602.05632"
   pdf: "https://www.arxiv.org/pdf/2602.05632"
   code: "https://github.com/alv31415/MVESteadyStateSolver.jl"
-- title: "Evolution Strategies at the Hyperscale"
-  authors: "Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Clarisse Wibault, Dmitry Samsonov, Dylan Cope, Jarek Liesen, Kang Li, Lukas Seier, Theo Wolf, Uljad Berdica, Valentin Mohl, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster"
-  year: 2025
-  description: "Preprint for 'Evolution Strategies at the Hyperscale'"
-  arxiv: "https://arxiv.org/abs/2511.16652"
-  pdf: "https://arxiv.org/pdf/2511.16652"
-  website: "https://eshyperscale.github.io"
-  code: "https://github.com/ESHyperscale/HyperscaleES"

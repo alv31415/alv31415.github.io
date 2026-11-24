@@ -1,0 +1,10 @@
+# peer-reviewed publications (conference / journal)
+- title: "Evolution Strategies at the Hyperscale"
+  authors: "Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Clarisse Wibault, Dmitry Samsonov, Dylan Cope, Jarek Liesen, Kang Li, Lukas Seier, Theo Wolf, Uljad Berdica, Valentin Mohl, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster"
+  year: 2026
+  description: "Published at ICML 2026 (PMLR 306)."
+  pdf: "https://arxiv.org/pdf/2511.16652"
+  website: "https://eshyperscale.github.io"
+  arxiv: "https://arxiv.org/abs/2511.16652"
+  conference: "https://proceedings.mlr.press/v306/sarkar26a.html"
+  code: "https://github.com/ESHyperscale/HyperscaleES"
