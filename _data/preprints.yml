@@ -8,7 +8,7 @@
   bibtex: |
     @misc{wibault2026qshapedoptionshierarchicalreinforcement,
       title={Q-Shaped Options for Hierarchical Reinforcement Learning},
-      author={Clarisse Wibault and Antoine Gorceix and Le{\'o}n Villares, Antonio and Alexey Zakharov and Evangelos Chatzaroulas and Michael Matthews and Eduardo Pignatelli and Jakob Foerster},
+      author={Clarisse Wibault and Antoine Gorceix and Antonio {Le{\'o}n Villares} and Alexey Zakharov and Evangelos Chatzaroulas and Michael Matthews and Eduardo Pignatelli and Jakob Foerster},
       year={2026},
       eprint={2610.12135},
       archivePrefix={arXiv},
@@ -24,7 +24,7 @@
   bibtex: |
     @misc{wibault2026abstractionofflinegoalconditionedreinforcement,
       title={Abstraction for Offline Goal-Conditioned Reinforcement Learning},
-      author={Clarisse Wibault and Alexander Goldie and Le{\'o}n Villares, Antonio and Maike Osborne and Jakob Foerster},
+      author={Clarisse Wibault and Alexander Goldie and Antonio {Le{\'o}n Villares} and Maike Osborne and Jakob Foerster},
       year={2026},
       eprint={2605.22711},
       archivePrefix={arXiv},
@@ -40,7 +40,7 @@
   bibtex: |
     @misc{loman2026learningfunctionalcomponentspdes,
       title={Learning functional components of PDEs from data using neural networks},
-      author={Torkel E. Loman and Yurij Salmaniw and Le{\'o}n Villares, Antonio and Jose A. Carrillo and Ruth E. Baker},
+      author={Torkel E. Loman and Yurij Salmaniw and Antonio {Le{\'o}n Villares} and Jose A. Carrillo and Ruth E. Baker},
       year={2026},
       eprint={2602.13174},
       archivePrefix={arXiv},
@@ -57,7 +57,7 @@
   bibtex: |
     @misc{carrillo2026numericalstationarystatesnonlocal,
       title={Numerical stationary states for nonlocal Fokker-Planck equations via fixed points of consistency maps},
-      author={José A. Carrillo and Yurij Salmaniw and Le{\'o}n Villares, Antonio},
+      author={José A. Carrillo and Yurij Salmaniw and Antonio {Le{\'o}n Villares}},
       year={2026},
       eprint={2602.05632},
       archivePrefix={arXiv},
